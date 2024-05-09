@@ -1,0 +1,95 @@
+body{
+    background-color: #141414;
+    text-align: center;
+    color: white;
+}
+.container{
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-top: 10px;
+    width: 20%;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img {
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+    margin-top: 20px;
+}
+#location{
+    color: #C5DF7C;
+}
+button{
+    width: 90%;
+    height: 30px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+    border-color: white;
+}
+button:hover{
+    background-color: #C5DF7C;
+    color: black;
+    border-color: white;
+}
+@media screen and (min-width: 360px) {
+    .container {
+     width: 60%;
+    }
+   }
+
+@media screen and (min-width: 375px) {
+    .container {
+     width: 60%;
+    }
+   }
+@media screen and (min-width: 600px) {
+   .container {
+    width: 40%;
+   }
+  }
+  @media screen and (min-width: 1200px) {
+    .container {
+     width: 25%;
+    }
+   }
+   @media screen and (min-width: 768px) {
+    .container {
+     width: 30%;
+    }
+   }
+   @media screen and (min-width: 992px) {
+    .container {
+     width: 25%;
+    }
+   }
+   @media screen and (min-width: 2768px) {
+    .container {
+     width: 12%;
+    }
+   }
+   @media screen and (min-width: 820px) {
+    .container {
+     width: 45%;
+    }
+   }
+   @media screen and (min-width:1024px) {
+    .container {
+     width: 25%;
+    }
+   }
+   @media screen and (min-width: 344px) {
+    .container {
+     width: 50%;
+    }
+   }
+   @media screen and (min-width: 853px) {
+    .container {
+     width: 30%;
+    }
+   }
